@@ -1,4 +1,4 @@
-# stoej_cache
+# ez_cache
 
 Uncomplicated persistent cache and memoization, designed for humans.
 
