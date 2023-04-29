@@ -23,11 +23,10 @@ class FileBackend:
     # the following methods are implemented in terms of the
     # abstract methods. Don't mess with these!
 
-    file_lock_timeout_s: int = 60
-
     def __init__(self, file_path: Path):
         self.file_path = file_path
         self.__file_lock = FileLock(file_path.parent / (f"{file_path.name}.lock"))
+        self.file_lock_timeout_s = 60
 
     def read(self) -> dict[Any, Any]:
         """Atomically read the dictionary from the file"""
