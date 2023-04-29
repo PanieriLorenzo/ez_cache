@@ -2,7 +2,7 @@
 
 Uncomplicated persistent cache and memoization, designed for humans.
 
-stoej_cache is not the most efficient or most fully featured caching/memoization
+ez_cache is not the most efficient or most fully featured caching/memoization
 package out there. It's purpose is to be "good enough" for most applications, while
 remaining uncomplicated. It is also human-readable, as it stores data in JSON files.
 
