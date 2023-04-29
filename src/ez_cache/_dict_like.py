@@ -31,6 +31,7 @@ class DictLike(ABC):
     #
     # the following methods are implemented in terms of the
     # abstract methods. Don't mess with these!
+
     def __init__(self):
         self.__lock = Lock()
 

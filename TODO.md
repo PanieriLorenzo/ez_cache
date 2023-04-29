@@ -1,0 +1,3 @@
+- [ ] add fixtures for test_dict_like.py
+- [ ] integration test two interleaved transactions
+- [ ] integration test multithreaded locking

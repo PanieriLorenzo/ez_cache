@@ -1,6 +1,5 @@
 from src.ez_cache._dict_like import DictLike
 from typing import Any, Iterable
-from dataclasses import dataclass
 import pytest
 
 
