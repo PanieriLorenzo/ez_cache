@@ -9,17 +9,14 @@ class FileBackend:
     @abstractmethod
     def _init_file(self):
         """Initialize the file with an empty dictionary."""
-        pass
 
     @abstractmethod
     def _read(self) -> dict[Any, Any]:
         """Read the full dictionary from the file."""
-        pass
 
     @abstractmethod
     def _write(self, d: dict[Any, Any]):
         """Write the full dictionary to the file"""
-        pass
 
     # INTERNALS AHEAD, don't touch!
     #

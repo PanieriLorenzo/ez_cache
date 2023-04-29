@@ -1,4 +1,4 @@
-from src.ez_cache._file_backend import FileBackend
+from ez_cache._file_backend import FileBackend
 from typing import Any
 from pathlib import Path
 from tempfile import TemporaryDirectory

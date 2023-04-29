@@ -13,19 +13,19 @@ from threading import Lock
 class DictLike(ABC):
     @abstractmethod
     def _get(self, key: Any) -> Any:
-        pass
+        """TODO"""
 
     @abstractmethod
     def _set(self, key: Any, value: Any):
-        pass
+        """TODO"""
 
     @abstractmethod
     def _delete(self, key: Any):
-        pass
+        """TODO"""
 
     @abstractmethod
     def _keys(self) -> Iterable[Any]:
-        pass
+        """TODO"""
 
     # INTERNALS AHEAD, don't touch!
     #

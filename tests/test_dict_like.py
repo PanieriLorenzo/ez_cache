@@ -1,4 +1,4 @@
-from src.ez_cache._dict_like import DictLike
+from ez_cache._dict_like import DictLike
 from typing import Any, Iterable
 import pytest
 
