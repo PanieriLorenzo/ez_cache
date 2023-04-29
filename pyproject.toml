@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "stoej_cache"
+name = "ez_cache"
 version = "0.0.1"
 authors = [
 	{ name = "Lorenzo Panieri", email="panierilorenzo@gmail.com" }
