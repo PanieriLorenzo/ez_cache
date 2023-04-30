@@ -162,3 +162,7 @@ cython_debug/
 # other python stuff
 coverage
 coverage/**
+
+# testing artifacts / garbage
+temp
+temp/**

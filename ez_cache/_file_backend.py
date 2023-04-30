@@ -57,6 +57,7 @@ class FileBackend:
         self.__release_lock()
 
     def __acquire_lock(self):
+        self.file_path.parent.mkdir(parents=True, exist_ok=True)
         self.__file_lock.acquire(timeout=self.file_lock_timeout_s)
 
     def __release_lock(self):

@@ -1,8 +1,7 @@
 """Access to JSON file as a dictionary"""
-from ez_cache._file_backend import FileBackend
+from _file_backend import FileBackend
 from typing import Any
 from pathlib import Path
-import json
 import jsonpickle
 
 
