@@ -1,4 +1,4 @@
-# ez_cache
+# ez_cache (unfinished!)
 
 Uncomplicated persistent cache and memoization, designed for humans.
 
